@@ -7,16 +7,8 @@ int main()
     for(i=1;i<=n;i++)
     {
 
-    if(i<n)
-        {
-            printf("%d!+",i);
+
             fact=fact*i;
-        }
-        if(i==n)
-        {
-            printf("%d!",i);
-            fact=fact*i;
-        }
     }
     printf("factorial of n: %d\n",fact);
 }
